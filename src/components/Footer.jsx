@@ -27,11 +27,10 @@ const Footer = () => {
     {
       title: "Follow Me",
       links: [
-        { text: "Instagram", url: "https://www.instagram.com/gourab_sr4/" },
-        { text: "X", url: "https://x.com/ExplorerGourab" },
-        { text: "Facebook", url: "https://facebook.com/gourabsr4" },
-        { text: "Githhub", url: "https://github.com/gourabofficial" },
-        { text: "Linkdin", url: "https://www.linkedin.com/in/gourab-ganguly/" },
+        { text: "Instagram", url: "https://www.instagram.com/aatishtiwari0049/?hl=en" },
+        { text: "Facebook", url: "https://www.facebook.com/Aatish0049/" },
+        { text: "Githhub", url: "https://github.com/Aatish0049" },
+        { text: "Linkdin", url: "https://www.linkedin.com/feed/" },
       ],
     },
   ];
@@ -44,7 +43,7 @@ const Footer = () => {
           <div>
             <img
               className="w-34 md:w-32"
-              src={assets.logo_3}
+              src={assets.logo}
               alt="dummyLogoColored"
             />
             <p className="max-w-[410px] mt-6">
@@ -93,9 +92,9 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        
+
         <p className="py-4 text-center text-sm md:text-base text-gray-500">
-          Copyright {new Date().getFullYear() } © Grocery Store. All Right Reserved.{" "}
+          Copyright {new Date().getFullYear()} © Grocery Store. All Right Reserved.{" "}
         </p>
       </div>
     </div>
